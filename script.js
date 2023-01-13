@@ -66,12 +66,14 @@ mostrarRetornoNegativo(){
     let respostaCadastro = document.getElementById('respostacadastro')
     respostaCadastro.innerText = 'Campos obrigatórios não preenchidos!'
     respostaCadastro.style.color = 'red'
+    respostaCadastro.style.textAlign = 'right'
 }
 
 mostrarRetornoPositivo(){
     let respostaCadastro = document.getElementById('respostacadastro')
     respostaCadastro.innerText = 'Cadastro realizado com sucesso!'
     respostaCadastro.style.color = '#2cd62c'
+    respostaCadastro.style.textAlign = 'left'
     
 }
 
